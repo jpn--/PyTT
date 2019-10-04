@@ -1,0 +1,14 @@
+#!/bin/bash
+export NODE_OPTIONS=--max-old-space-size=4096
+jupyter labextension install \
+	@jupyterlab/toc \
+	@jupyter-widgets/jupyterlab-manager \
+	jupyterlab-plotly \
+	plotlywidget \
+	@jupyterlab/geojson-extension \
+	@jupyterlab/mathjax3-extension 
+unset NODE_OPTIONS
+
+
+python -m ipykernel install --user --name base --display-name "TT"
+
