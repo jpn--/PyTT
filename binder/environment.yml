@@ -23,7 +23,7 @@ dependencies:
   - defaults::mkl_random
   - defaults::blas
   - defaults::intel-openmp
-  - defaults::pandas>=0.23.4
+  - defaults::pandas>=0.25
   - defaults::scipy>=1.2
   - jpn::ghalton>=0.6.1
   
@@ -35,7 +35,7 @@ dependencies:
   - jpn::pathspec>=0.5.9
   
   # Data Storage and File Management
-  - pytables=3.4.4
+  #- pytables=3.4.4
   - h5py>=2.8.0
   - hdf5>=1.10.2
   - appdirs>=1.4.3
@@ -49,11 +49,11 @@ dependencies:
   - plotly::plotly-orca  # Plotly Static Image Export
   
   # Mapping
-  - conda-forge::fiona>=1.7.11
-  - conda-forge::gdal>=2.2.4
+  - conda-forge::fiona
+  - conda-forge::gdal
   - conda-forge::geopandas>=0.4
-  - conda-forge::krb5>=1.16
-  - conda-forge::shapely>=1.6.4
+  - conda-forge::krb5
+  - conda-forge::shapely
   - conda-forge::osmnx>=0.9
   - conda-forge::contextily
   - conda-forge::libiconv
@@ -81,7 +81,6 @@ dependencies:
   - ipykernel>=5.1
   - nb_conda>=2.2.1
   - jupyterlab>=1.0.4
-  - jupyterlab_server>=1.0.0
   - notebook>=5.7.2
   - conda-forge::nodejs
   - conda-forge::jupyter_contrib_nbextensions>=0.4.0   # on conda-forge only
