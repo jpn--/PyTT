@@ -17,7 +17,6 @@ dependencies:
   
   # Math
   - defaults::numpy>=1.16
-  #- defaults::numpy-base
   #- defaults::mkl
   #- defaults::mkl_fft
   #- defaults::mkl_random
@@ -25,14 +24,14 @@ dependencies:
   #- defaults::intel-openmp
   - defaults::pandas>=0.25
   - defaults::scipy>=1.2
-  #- jpn::ghalton>=0.6.1
+  - jpn::ghalton>=0.6.1
   
   # Networks
   - networkx>=2.2
   
   # YAML Processing
-  #- jpn::yamllint>=1.11
-  #- jpn::pathspec>=0.5.9
+  - jpn::yamllint>=1.11
+  - jpn::pathspec>=0.5.9
   
   # Data Storage and File Management
   #- pytables=3.4.4
