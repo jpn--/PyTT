@@ -12,3 +12,4 @@ unset NODE_OPTIONS
 
 python -m ipykernel install --user --name base --display-name "TT"
 
+conda list > conda-list.txt
