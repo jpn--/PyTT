@@ -11,17 +11,17 @@ dependencies:
   - pip
 
   # Security
-  #- defaults::openssl
-  #- defaults::certifi
-  #- defaults::ca-certificates
+  - defaults::openssl
+  - defaults::certifi
+  - defaults::ca-certificates
   
   # Math
   - defaults::numpy>=1.16
-  #- defaults::mkl
-  #- defaults::mkl_fft
-  #- defaults::mkl_random
-  #- defaults::blas
-  #- defaults::intel-openmp
+  - defaults::mkl
+  - defaults::mkl_fft
+  - defaults::mkl_random
+  - defaults::blas
+  - defaults::intel-openmp
   - defaults::pandas>=0.25
   - defaults::scipy>=1.2
   - jpn::ghalton>=0.6.1
@@ -33,7 +33,7 @@ dependencies:
   - yamllint>=1.15
   
   # Data Storage and File Management
-  #- pytables=3.4.4
+  - pytables>=3.4.4
   - h5py>=2.8.0
   - hdf5>=1.10.2
   - appdirs>=1.4.3
@@ -42,7 +42,7 @@ dependencies:
   - matplotlib>=3.0.1
   - seaborn>=0.9
   - pydot
-  #- graphviz>=2.38
+  - graphviz>=2.38
   - plotly>=4.1
   - plotly::plotly-orca  # Plotly Static Image Export
   
@@ -56,7 +56,7 @@ dependencies:
   - conda-forge::contextily
   - conda-forge::libiconv
   - conda-forge::fontconfig
-  #- jpn::mapped
+  - jpn::mapped
   
   # User Interface
   - ipywidgets>=7.2
@@ -72,26 +72,26 @@ dependencies:
   # HTML Compatibility
   - beautifulsoup4>=4.6
   - jinja2>=2.9.6  # for pandas styler
-  #- jpn::xmle
+  - jpn::xmle
   - html5lib
   
   # Jupyter and IPython
   - ipykernel>=5.1
-  #- nb_conda>=2.2.1
+  - nb_conda>=2.2.1
   - jupyterlab>=1.0.4
   - notebook>=5.7.2
   - conda-forge::nodejs
   #- conda-forge::jupyter_contrib_nbextensions>=0.4.0   # on conda-forge only
-  #- conda-forge::jupytext
+  - conda-forge::jupytext
 
   
   # Choice Modeling
-  #- jpn::filez
-  #- jpn::addict_yaml
-  #- jpn::larch>=5.1
+  - jpn::filez
+  - jpn::addict_yaml
+  - jpn::larch>=5.1
   
   # Testing
-  #- pytest>=4.0.1
+  - pytest>=4.0.1
   
   - pip:
       - transportation_tutorials
