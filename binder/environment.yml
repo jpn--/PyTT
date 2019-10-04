@@ -30,8 +30,7 @@ dependencies:
   - networkx>=2.2
   
   # YAML Processing
-  - jpn::yamllint>=1.11
-  - jpn::pathspec>=0.5.9
+  - yamllint>=1.15
   
   # Data Storage and File Management
   #- pytables=3.4.4
